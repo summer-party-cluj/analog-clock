@@ -58,6 +58,13 @@ if (document.location.protocol === 'file:') {
 }
 
 var apps = {
+  "analogclock": {
+    "origin": rootPath.replace('%%%', 'analogclock'),
+    "installOrigin": "http://analogclock.localhost.org:8080",
+    "receipt": null,
+    "installTime": 132333986000,
+    "manifestURL": "http://analogclock.localhost.org:8080/manifest.webapp"
+  },
   "browser": {
     "origin": rootPath.replace('%%%', 'browser'),
     "installOrigin": "http://browser.localhost.org:8080",
