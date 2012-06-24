@@ -1,3 +1,0 @@
-/**
- * @author Trif Andrei Alin
- */
